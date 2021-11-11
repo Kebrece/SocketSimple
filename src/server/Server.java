@@ -21,7 +21,7 @@ public class Server
             System.out.println("El cliente dice "+msjCliente);
 
             PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
-            printWriter.println("Hola desde la app del cliente");
+            printWriter.println("Respuesta enviada desde el servidor");
             printWriter.flush();
 
         }catch (IOException e)
